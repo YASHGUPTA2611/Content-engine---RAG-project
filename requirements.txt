@@ -1,0 +1,6 @@
+ollama # Local inference
+chromadb # Vector Database
+sentence-transformers # CrossEncoder Re-ranking
+streamlit # Application UI
+PyMuPDF # PDF Document loader
+langchain-community # Utils for text splitting
