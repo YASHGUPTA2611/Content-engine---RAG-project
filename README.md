@@ -13,6 +13,14 @@ A Streamlit application for processing PDF documents, storing them in a ChromaDB
 
 pip install -r requirements.txt
 
+### Additional Downloads:
+
+- Ollama Download
+- Ollama Llama3.2:3b
+- Ollama nomic-embed-text
+- Cross Encoder Model
+
+
 ### Run the Streamlit application:
 
 streamlit run app_new.py
