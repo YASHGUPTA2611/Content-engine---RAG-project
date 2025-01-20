@@ -1,13 +1,28 @@
-# Content-engine---RAG-project
+# Content Engine - Alemeno
 
-A Streamlit application for processing PDF documents, storing them in a ChromaDB vector store, and enabling question-answering using AI models.
+A Streamlit application for processing PDF documents, storing them in a ChromaDB vector store, and enabling AI-driven question-answering.
 
-### Features
+## Features
 
-- Upload and process PDF documents.
+- **PDF Processing**: Upload and process PDF documents into text chunks.
+- **Vector Storage**: Store and query document embeddings with ChromaDB for efficient semantic search.
+- **AI-Powered Q&A**: Generate detailed, context-based responses using AI models.
+- **Document Re-Ranking**: Enhance response accuracy with CrossEncoder-based document relevance scoring.
 
-- Store and query document embeddings with ChromaDB.
+### Install the required dependencies:
 
-- Generate AI-driven responses based on document content.
+pip install -r requirements.txt
 
-- Re-rank documents using CrossEncoder for relevance.
+### Run the Streamlit application:
+
+streamlit run app_new.py
+
+### Process PDF Documents:
+
+- Upload PDF files via the sidebar.
+- Click "Process" to extract and store text chunks in the ChromaDB vector store.
+
+### Ask Questions:
+
+- Enter a query in the text area.
+- Click "Ask" to generate AI-driven responses based on the document content.
