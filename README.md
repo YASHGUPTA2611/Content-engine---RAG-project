@@ -9,11 +9,11 @@ A Streamlit application for processing PDF documents, storing them in a ChromaDB
 - **AI-Powered Q&A**: Generate detailed, context-based responses using AI models.
 - **Document Re-Ranking**: Enhance response accuracy with CrossEncoder-based document relevance scoring.
 
-### Install the required dependencies:
+### 1. Install the required dependencies:
 
 pip install -r requirements.txt
 
-### Additional Downloads:
+### 2. Additional Downloads:
 
 - Ollama Download
 - Ollama Llama3.2:3b
@@ -21,16 +21,16 @@ pip install -r requirements.txt
 - Cross Encoder Model
 
 
-### Run the Streamlit application:
+### 3. Run the Streamlit application:
 
 streamlit run app_new.py
 
-### Process PDF Documents:
+### 4. Process PDF Documents:
 
 - Upload PDF files via the sidebar.
 - Click "Process" to extract and store text chunks in the ChromaDB vector store.
 
-### Ask Questions:
+### 5. Ask Questions:
 
 - Enter a query in the text area.
 - Click "Ask" to generate AI-driven responses based on the document content.
